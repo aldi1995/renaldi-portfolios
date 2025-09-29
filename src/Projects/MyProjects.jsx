@@ -26,7 +26,7 @@ const MyProjects = () => {
     },
     {
       id: 2,
-      title: "E-Medic",
+      title: "Jalin Sehat",
       subtitle: "To serve the people",
       description:
         "Making hospital registration easier",
