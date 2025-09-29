@@ -26,10 +26,10 @@ const MyProjects = () => {
     },
     {
       id: 2,
-      title: "SnipScan",
-      subtitle: "Shorten & Share Links",
+      title: "E-Medic",
+      subtitle: "To serve the people",
       description:
-        "Create short links, track analytics, and generate QR codes easily.",
+        "Making hospital registration easier",
       icon: <LinkIcon className="w-8 h-8" />,
       gradient: "from-blue-600 via-purple-600 to-blue-800",
       tags: ["Next.js", "PostgreSQL", "Analytics", "QR Codes"],
