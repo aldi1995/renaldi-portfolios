@@ -39,12 +39,6 @@ const Footer = () => {
       bg: "bg-[#25D366]",
     },
     {
-      icon: <img src="/threads.svg" alt="Threads" className="w-5 h-5" />,
-      label: "Threads",
-      link: "https://www.threads.net/@renaldibagus95",
-      bg: "bg-black",
-    },
-    {
       icon: <Mail className="w-5 h-5" />,
       label: "Mail",
       link: "mailto:rey.widakdo@gmail.com",
