@@ -9,6 +9,7 @@ import {
   Heart,
   Coffee,
   Code,
+  Mail,
 } from "lucide-react";
 
 const Footer = () => {
@@ -38,15 +39,25 @@ const Footer = () => {
       bg: "bg-[#25D366]",
     },
     {
-      
+      icon: <img src="/threads.svg" alt="Threads" className="w-5 h-5" />,
+      label: "Threads",
+      link: "https://www.threads.net/@renaldibagus95",
+      bg: "bg-black",
     },
     {
-      
+      icon: <Mail className="w-5 h-5" />,
+      label: "Mail",
+      link: "mailto:rey.widakdo@gmail.com",
+      bg: "bg-[#1877F2]",
     },
     {
-      
+      icon: <Youtube className="w-5 h-5" />,
+      label: "YouTube",
+      link: "https://www.youtube.com/renaldiwidakdo",
+      bg: "bg-[#FF0000]",
     },
   ];
+
 
   return (
     <footer className="mt-16 bg-gray-50 border-t border-gray-200">
@@ -93,11 +104,7 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center space-x-2 text-sm">
-              <span>Crafted with</span>
-              <Heart className="w-4 h-4 text-red-500" />
-              <Code className="w-4 h-4 text-blue-600" />
-              <span>&</span>
-              <Coffee className="w-4 h-4 text-green-600" />
+              <span>Crafted By ; Renaldi B Widakdo</span>
             </div>
           </div>
         </div>

@@ -10,11 +10,6 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo + Title */}
         <div className="flex items-center space-x-2">
-          <img
-            src="/aab.jpg"
-            alt="Logo"
-            className="h-10 w-10 rounded-full object-cover"
-          />
           <h1 className="text-lg md:text-xl font-bold text-blue-600 tracking-wide">
             Renaldi's Portfolio
           </h1>
